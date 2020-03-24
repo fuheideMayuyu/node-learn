@@ -6,7 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "bin": {
+    "kkb": "./bin/kkb"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.0.0",
+    "download-git-repo": "^3.0.2",
+    "ora": "^4.0.3"
+  }
 }
